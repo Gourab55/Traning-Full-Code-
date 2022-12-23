@@ -1,0 +1,91 @@
+ spring version - 2.7.6
+ java version - 8
+
+sudo amazon-linux-extras install java-openjdk11
+
+
+to install angular in your machine
+--------------------------------------
+npm i @angular/cli
+npm i -g @angular/cli 
+
+alt+shft+f  ---> format the code in vs code
+
+for checking whether angular is installed or not
+------------------------------------
+node -v
+npm -v
+
+http://localhost:8081/api/v1/searchLoan/?fastname=gourab&lastname=jati&loanNo=12345
+
+
+
+
+
+admin
+gourab123
+port-3306
+loan-rds.cjwluvxdwss2.us-east-1.rds.amazonaws.com
+
+ec2-54-173-255-78.compute-1.amazonaws.com
+
+https://loanmanagement.s3.amazonaws.com/LoanService-0.0.1-SNAPSHOT.jar
+
+
+to check the port number in mysql
+-----------------------------
+show global variables like 'port'
+
+
+
+for creating an new application
+--------------------------
+ng new application name
+routing - Y(Yes)
+
+to open vs code for application 
+-------------------------------
+go to application directory --> open the cmd in that directory ->code .
+
+to create a compmponent 
+---------------------------
+ng g c component/componentname
+
+to install bootstrap
+-------------------------
+npm install bootstrap@5.2.2
+
+to install json server
+-----------------------
+npm -i g json-server
+
+to Look up the data base
+-----------------------------------
+json-server --watch db.json --port 5000
+
+to create a service 
+--------------------
+ng g s servicename
+
+to create a custom pipe
+---------------------
+ng g pipe foldername/pipename
+
+
+to build a appliaction
+--------------------
+ng build
+
+
+
+
+
+--> If you want toconfigure the route then add {<router-outlet> tag to app.component }
+ --> If you want to connect any component to home page element , then set it in { app-routing module}
+ --> If you want to add any module to your appliaction add it in {app-module.ts and import that module also }
+
+
+https://spring-deployment-jar-bucket1.s3.ap-northeast-1.amazonaws.com/aws-deploy-0.0.1-SNAPSHOT.jar
+
+
+
