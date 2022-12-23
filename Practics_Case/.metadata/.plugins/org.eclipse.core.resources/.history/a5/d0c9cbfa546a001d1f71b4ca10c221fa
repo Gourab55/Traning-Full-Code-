@@ -1,0 +1,9 @@
+package com.Author.Service;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.Author.Model.AuthorDetail;
+
+public interface IAuthorRepo extends JpaRepository<AuthorDetail, Integer>{
+
+}

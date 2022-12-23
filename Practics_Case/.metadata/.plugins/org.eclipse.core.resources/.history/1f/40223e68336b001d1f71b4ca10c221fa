@@ -1,0 +1,16 @@
+package com.Author.Controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
+import com.Author.Service.AuthorService;
+
+@Controller
+public class AuthorController {
+	
+	@Autowired
+	AuthorService authorService;
+	
+	
+
+}

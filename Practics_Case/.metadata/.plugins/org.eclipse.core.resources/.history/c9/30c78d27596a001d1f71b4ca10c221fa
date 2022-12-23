@@ -1,0 +1,5 @@
+package com.Book.Models;
+
+public class BookEntity {
+
+}

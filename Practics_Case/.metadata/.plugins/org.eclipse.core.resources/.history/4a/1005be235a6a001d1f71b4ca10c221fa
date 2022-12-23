@@ -1,0 +1,17 @@
+package com.Book.Service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.Book.Models.BookEntity;
+
+public class BookService {
+	
+	@Autowired
+	IBookRepo ibookRepo;
+	
+	
+	public BookEntity saveBook(BookEntity book) {
+		return ibookRepo.save(book);
+	}
+
+}

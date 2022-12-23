@@ -1,0 +1,38 @@
+package com.Author.Service;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.Author.Model.AuthorDetail;
+
+@Service
+public class AuthorService {
+	
+	@Autowired
+	IAuthorRepo iauthRepo;
+	
+	public AuthorDetail SaveAuthor(AuthorDetail auth) {
+		return iauthRepo.save(auth);
+	} 
+	
+	public List<AuthorDetail> getAllAuthors(){
+		return iauthRepo.findAll();
+	}
+	
+    public Optional<AuthorDetail> getAuthorById(Integer aid){
+    	return iauthRepo.findById(aid);
+    }
+    
+    public Optional<AuthorDetail> GetAuthorByname(String username){
+    	
+    	return iauthRepo.findByName(username);
+    	
+    }
+	
+	
+	
+
+}

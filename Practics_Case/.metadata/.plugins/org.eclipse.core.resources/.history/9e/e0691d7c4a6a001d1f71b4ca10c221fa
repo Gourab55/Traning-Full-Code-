@@ -1,0 +1,5 @@
+package com.Author.Service;
+
+public interface IAuthorRepo {
+
+}

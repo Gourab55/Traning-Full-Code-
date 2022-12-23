@@ -1,0 +1,17 @@
+package com.Author.Service;
+
+import java.util.Optional;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.stereotype.Repository;
+
+import com.Author.Model.AuthorDetail;
+
+@Repository
+public interface IAuthorRepo extends JpaRepository<AuthorDetail, Integer>{
+	
+// @Query("select u from AuthorDetails u where u.usename=?1")
+// public Optional<AuthorDetail> findByName(String authorname);
+//
+}

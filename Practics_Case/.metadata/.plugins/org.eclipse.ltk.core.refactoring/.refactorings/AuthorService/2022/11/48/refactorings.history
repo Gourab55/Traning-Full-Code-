@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.Author.Security.CustomUser.java&apos; to &apos;CustomUserDetails.java&apos;&#x0D;&#x0A;- Original project: &apos;AuthorService&apos;&#x0D;&#x0A;- Original element: &apos;com.Author.Security.CustomUser.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.Author.Security.CustomUserDetails.java&apos;" description="Rename compilation unit &apos;CustomUser.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java&lt;com.Author.Security{CustomUser.java" name="CustomUserDetails.java" references="false" stamp="1669183128839" version="1.0"/>
+</session>
